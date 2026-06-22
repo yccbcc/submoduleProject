@@ -1,0 +1,3 @@
+[submodule "Libs/ZHBCommonKit"]
+	path = Libs/ZHBCommonKit
+	url = git@github.com:yccbcc/ZHBCommonKit.git
