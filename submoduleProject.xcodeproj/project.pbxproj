@@ -6,8 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4F53056A2FE96A6400B5698D /* ZHBCommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F5305682FE96A6400B5698D /* ZHBCommonKit.m */; };
+		4F53056B2FE96A6400B5698D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4F5305662FE96A6400B5698D /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4F5305042FE95BB600B5698D /* submoduleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = submoduleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5305662FE96A6400B5698D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4F5305672FE96A6400B5698D /* ZHBCommonKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZHBCommonKit.h; sourceTree = "<group>"; };
+		4F5305682FE96A6400B5698D /* ZHBCommonKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHBCommonKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -45,6 +53,7 @@
 		4F5304FB2FE95BB600B5698D = {
 			isa = PBXGroup;
 			children = (
+				4F5305692FE96A6400B5698D /* ZHBCommonKit */,
 				4F5305062FE95BB600B5698D /* submoduleProject */,
 				4F5305052FE95BB600B5698D /* Products */,
 			);
@@ -56,6 +65,17 @@
 				4F5305042FE95BB600B5698D /* submoduleProject.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		4F5305692FE96A6400B5698D /* ZHBCommonKit */ = {
+			isa = PBXGroup;
+			children = (
+				4F5305662FE96A6400B5698D /* README.md */,
+				4F5305672FE96A6400B5698D /* ZHBCommonKit.h */,
+				4F5305682FE96A6400B5698D /* ZHBCommonKit.m */,
+			);
+			name = ZHBCommonKit;
+			path = Libs/ZHBCommonKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +141,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F53056B2FE96A6400B5698D /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F53056A2FE96A6400B5698D /* ZHBCommonKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
